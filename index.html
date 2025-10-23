@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-[#e8daff]">
 <head>
   <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.8.0">
   <meta charset="utf-8">
@@ -20,8 +20,8 @@
     <div class="grid sm:grid-cols-2 gap-4 p-4 justify-center">
       <div class="card bg-[#f6f2ff] bg-base-100 sm:w-96 w-80vw shadow-sm rounded-lg">
         <div class="relative">
-          <img class="w-100 rounded-lg" src="https://avatars.githubusercontent.com/u/152059390" alt="My avatar">
-          <div class="absolute bottom-0 left-0 bg-white/75 backdrop-blur-xs w-full rounded-b-lg">
+          <img class="w-100 sm:rounded-lg rounded-t-lg" src="https://avatars.githubusercontent.com/u/152059390" alt="My avatar">
+          <div class="sm:absolute sm:bottom-0 sm:left-0 sm:bg-white/75 sm:backdrop-blur-xs w-full rounded-b-lg">
             <h2 class="card-title flex-col items-start p-4 pb-0">Iaroslav "Azzy" Lisov <span class="block text-xs text-gray-500">a.k.a. foxscribe, tetrafoxate, foxycycline, rei_dreem</span></h2>
             <div class="flex justify-center gap-2 p-4">
               <a href="https://woof.tech/@foxscribe" rel="me" class="btn btn-xs btn-soft text-black"><img src="/symbolic/mastodon.svg" alt="Mastodon" class="w-4 h-4"></a> <a href="https://codeberg.org/foxscribe" class="btn btn-xs btn-soft text-black"><img src="/symbolic/codeberg.svg" alt="Codeberg" class="w-4 h-4"></a> <a href="mailto:foxycycline@duck.com" class="btn btn-xs btn-soft text-black"><img src="/symbolic/mail.svg" alt="E-mail" class="w-4 h-4"></a> <a href="https://signal.me/#eu/sHmfMQwa-BTbiug4RFDNM72QgbulEjvJboV6xZMtpN_E1MdBGGxLPpMBmTOYUm4q" class="btn btn-xs btn-soft text-black"><img src="/symbolic/signal.svg" alt="Signal Messenger" class="w-4 h-4"></a>
@@ -127,25 +127,11 @@
         <div class="card-body">
           <h2 class="p-2 pb-1 text-m font-semibold tracking-wide">Interests</h2>
           <div id="badges" class="flex flex-wrap gap-2">
-            <span class="badge badge-soft">Embedded systems</span> <span class="badge badge-soft">Web development</span> <span class="badge badge-soft">Making small games</span> <span class="badge badge-soft">GNU+Linux tinkering</span> <span class="badge badge-soft">Retro tech</span> <span class="badge badge-soft">Photography</span> <span class="badge badge-soft">Storywriting</span> <span class="badge badge-soft">Reading tech books</span> <span class="badge badge-soft">Software design</span> <span class="badge badge-soft">Playing piano</span> <span class="badge badge-soft">Digital art</span> <span class="badge badge-soft">Pixel art</span> <span class="badge badge-soft">Minecraft</span> <span class="badge badge-soft">Starbound</span> <span class="badge badge-soft">Undertale</span> <span class="badge badge-soft">Educating others</span> <span class="badge badge-soft">Tracker music</span> <span class="badge badge-soft">Chiptune</span><span class="badge badge-soft">Symbian</span> <span class="badge badge-soft">Chess</span> <span class="badge badge-soft">Shitposting</span>
+            <span class="badge badge-soft">Embedded systems</span> <span class="badge badge-soft">Web development</span> <span class="badge badge-soft">Making small games</span> <span class="badge badge-soft">GNU+Linux tinkering</span> <span class="badge badge-soft">Retro tech</span> <span class="badge badge-soft">Photography</span> <span class="badge badge-soft">Storywriting</span> <span class="badge badge-soft">Reading tech books</span> <span class="badge badge-soft">Software design</span> <span class="badge badge-soft">Playing piano</span> <span class="badge badge-soft">Digital art</span> <span class="badge badge-soft">Pixel art</span> <span class="badge badge-soft">Minecraft</span> <span class="badge badge-soft">Starbound</span> <span class="badge badge-soft">Undertale</span> <span class="badge badge-soft">Educating others</span> <span class="badge badge-soft">Tracker music</span> <span class="badge badge-soft">Chiptune</span> <span class="badge badge-soft">Synthwave</span> <span class="badge badge-soft">Symbian</span> <span class="badge badge-soft">Chess</span> <span class="badge badge-soft">Shitposting</span> <span class="badge badge-soft">Encryption</span>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <script>
-  $(function() {
-  const $badges = $('#badges span');
-  const badges = Array.from($badges);
-
-  for (let i = badges.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [badges[i], badges[j]] = [badges[j], badges[i]];
-  }
-
-  $('#badges').html('');
-  $(badges).appendTo('#badges');
-  });
-  </script>
 </body>
 </html>
