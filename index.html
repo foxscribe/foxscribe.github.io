@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-[#e8daff]">
+<html lang="en">
 <head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.8.0">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="fediverse:creator" content="@foxscribe@woof.tech">
@@ -11,127 +10,132 @@
   <meta property="og:description" content="Iaroslav 'Azzy' Lisov – Software engineering student, Linux enthusiast, also known as foxscribe.">
   <meta property="og:url" content="https://foxscribe.github.io/">
   <title>Azzy's Corner</title>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
 </head>
-<body class="font-[IBM_Plex_Sans] font-normal">
-  <div class="min-h-screen flex items-center justify-center">
-    <div class="grid sm:grid-cols-2 gap-4 p-4 justify-center">
-      <div class="card bg-[#f6f2ff] bg-base-100 sm:w-96 w-80vw shadow-sm rounded-lg">
-        <div class="relative">
-          <img class="w-100 sm:rounded-lg rounded-t-lg" src="https://avatars.githubusercontent.com/u/152059390" alt="My avatar">
-          <div class="sm:absolute sm:bottom-0 sm:left-0 sm:bg-white/75 sm:backdrop-blur-xs w-full rounded-b-lg">
-            <h2 class="card-title font-extrabold flex-col items-start p-4 pb-0">Iaroslav "Azzy" Lisov <span class="block text-xs font-semibold text-gray-500">a.k.a. foxscribe, tetrafoxate, foxycycline, rei_dreem</span></h2>
-            <div class="flex justify-center gap-2 p-4">
-              <a href="https://woof.tech/@foxscribe" rel="me" class="btn sm:btn-xs btn-soft text-black"><img src="/symbolic/mastodon.svg" alt="Mastodon" class="sm:w-4 w-6 sm:h-4 h-6"></a> <a href="https://codeberg.org/foxscribe" class="btn sm:btn-xs btn-soft text-black"><img src="/symbolic/codeberg.svg" alt="Codeberg" class="sm:w-4 w-6 sm:h-4 h-6"></a> <a href="mailto:foxycycline@duck.com" class="btn sm:btn-xs btn-soft text-black"><img src="/symbolic/mail.svg" alt="E-mail" class="sm:w-4 w-6 sm:h-4 h-6"></a> <a href="https://signal.me/#eu/sHmfMQwa-BTbiug4RFDNM72QgbulEjvJboV6xZMtpN_E1MdBGGxLPpMBmTOYUm4q" class="btn sm:btn-xs btn-soft text-black"><img src="/symbolic/signal.svg" alt="Signal Messenger" class="sm:w-4 w-6 sm:h-4 h-6"></a>
+<body class="font-[IBM_Plex_Sans]">
+  <section class="max-w-4xl mx-auto">
+    <header class="bg-[url(/image/river.webp)] bg-cover bg-center w-full">
+      <div class="flex flex-col items-center p-12 backdrop-blur-sm text-white font-[IBM_Plex_Serif]">
+        <div class="inline-block text-left">
+          <h1 class="font-black text-3xl md:text-4xl">Azzy's Corner</h1>
+          <p class="font-normal text-sm text-right mt-0">&gt; About Me</p>
+        </div>
+      </div>
+    </header>
+    <div class="grid grid-cols-1 md:grid-cols-[1fr_3fr_2fr] md:gap-0 gap-4">
+      <aside class="order-2 md:order-1 bg-gray-100">
+        <nav class="flex flex-col gap-2 md:text-sm text-lg font-medium">
+          <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">Main</p><a href="/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">About Me</a> <a href="/uses.html" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">I use</a> <a href="/now.html" class="hover:text-blue-600 hover:underline px-4">Now</a>
+          <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">My stuff</p><a href="/artwork/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Artwork</a> <a href="/articles/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Articles</a> <a href="/barnding/" class="hover:text-blue-600 hover:underline px-4 pb-4">"Branding"</a>
+        </nav>
+      </aside>
+      <main class="order-1 md:order-2 bg-white p-0">
+        <article class="relative flex flex-col sm:flex-row w-full">
+          <div class="w-full sm:w-2/5 relative">
+            <!-- About me card -->
+            <img class="w-full h-full object-cover" src="https://avatars.githubusercontent.com/u/152059390" alt="My avatar"><!-- Photo -->
+            <div class="absolute bottom-0 left-0 w-full bg-white/70 backdrop-blur-sm sm:hidden">
+              <!-- Mobile info -->
+              <h2 class="font-extrabold p-4 pb-0">Iaroslav "Azzy" Lisov <span class="block text-xs font-semibold text-gray-500">a.k.a. foxscribe, tetrafoxate, foxycycline, rei_dreem</span></h2>
+              <div class="flex justify-center gap-2 p-4">
+                <a href="https://woof.tech/@foxscribe" rel="me" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mastodon.svg" alt="Mastodon" class="w-6 h-6"></a> <a href="https://codeberg.org/foxscribe" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/codeberg.svg" alt="Codeberg" class="w-6 h-6"></a> <a href="mailto:foxycycline@duck.com" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mail.svg" alt="E-mail" class="w-6 h-6"></a> <a href="https://signal.me/#eu/sHmfMQwa-BTbiug4RFDNM72QgbulEjvJboV6xZMtpN_E1MdBGGxLPpMBmTOYUm4q" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/signal.svg" alt="Signal Messenger" class="w-6 h-6"></a>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="card bg-[#f6f2ff] bg-base-100 sm:w-96 w-80vw shadow-sm rounded-lg">
-        <div class="card-body flex justify-center items-stretch">
-          <ul class="list bg-base-100 rounded-box shadow-md">
-            <li class="p-4 pb-2 text-m font-extrabold tracking-wide">About Me</li>
-            <li class="list-row">
-              <div>
-                <div>
-                  Nineteen years
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Age
-                </div>
-              </div>
-            </li>
-            <li class="list-row">
-              <div>
-                <div>
-                  they/them
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Pronouns
-                </div>
-              </div>
-            </li>
-            <li class="list-row">
-              <div>
-                <div>
-                  Software Engineering (student)
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Qualification
-                </div>
-              </div>
-            </li>
-            <li class="list-row">
-              <div>
-                <div>
-                  Debian GNU/Linux "trixie"
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Daily driver
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="card bg-[#f6f2ff] bg-base-100 sm:w-96 w-80vw shadow-sm rounded-lg">
-        <div class="card-body flex justify-center items-stretch">
-          <ul class="list bg-base-100 rounded-box shadow-md">
-            <li class="p-4 pb-2 text-m font-extrabold tracking-wide">Technological Stack</li>
-            <li class="list-row">
-              <div>
-                <div>
-                  Java, C, C++
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Programming Languages
-                </div>
-              </div>
-            </li>
-            <li class="list-row">
-              <div>
-                <div>
-                  GNU+Linux, BSD, Haiku
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Operating Systems
-                </div>
-              </div>
-            </li>
-            <li class="list-row">
-              <div>
-                <div>
-                  Perl, Bash, Python
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Scripting and Automation
-                </div>
-              </div>
-            </li>
-            <li class="list-row">
-              <div>
-                <div>
-                  Docker, Podman, QEMU
-                </div>
-                <div class="text-xs uppercase font-semibold opacity-60">
-                  Other Tools
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="card bg-[#f6f2ff] sm:w-96 w-80vw shadow-sm rounded-lg">
-        <div class="card-body">
-          <h2 class="p-2 pb-1 text-m font-extrabold tracking-wide">Interests</h2>
-          <div id="badges" class="flex flex-wrap gap-2">
-            <span class="badge badge-soft">Embedded systems</span> <span class="badge badge-soft">Web development</span> <span class="badge badge-soft">Making small games</span> <span class="badge badge-soft">GNU+Linux tinkering</span> <span class="badge badge-soft">Retro tech</span> <span class="badge badge-soft">Photography</span> <span class="badge badge-soft">Storywriting</span> <span class="badge badge-soft">Reading tech books</span> <span class="badge badge-soft">Software design</span> <span class="badge badge-soft">Playing piano</span> <span class="badge badge-soft">Digital art</span> <span class="badge badge-soft">Pixel art</span> <span class="badge badge-soft">Minecraft</span> <span class="badge badge-soft">Starbound</span> <span class="badge badge-soft">Undertale</span> <span class="badge badge-soft">Educating others</span> <span class="badge badge-soft">Tracker music</span> <span class="badge badge-soft">Chiptune</span> <span class="badge badge-soft">Synthwave</span> <span class="badge badge-soft">Symbian</span> <span class="badge badge-soft">Chess</span> <span class="badge badge-soft">Shitposting</span> <span class="badge badge-soft">Encryption</span>
+          <div class="hidden sm:flex sm:flex-col sm:justify-center sm:w-3/5 bg-gray-50">
+            <!-- Desktop info -->
+            <h2 class="font-extrabold p-4 pb-0">Iaroslav "Azzy" Lisov <span class="block text-xs font-semibold text-gray-500">a.k.a. foxscribe, tetrafoxate, foxycycline, rei_dreem</span></h2>
+            <div class="flex justify-center gap-2 p-4">
+              <a href="https://woof.tech/@foxscribe" rel="me" class="flex items-center justify-center w-7 h-7 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mastodon.svg" alt="Mastodon" class="w-4 h-4"></a> <a href="https://codeberg.org/foxscribe" class="flex items-center justify-center w-7 h-7 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/codeberg.svg" alt="Codeberg" class="w-4 h-4"></a> <a href="mailto:foxycycline@duck.com" class="flex items-center justify-center w-7 h-7 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mail.svg" alt="E-mail" class="w-4 h-4"></a> <a href="https://signal.me/#eu/sHmfMQwa-BTbiug4RFDNM72QgbulEjvJboV6xZMtpN_E1MdBGGxLPpMBmTOYUm4q" class="flex items-center justify-center w-7 h-7 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/signal.svg" alt="Signal Messenger" class="w-4 h-4"></a>
+            </div>
           </div>
-        </div>
-      </div>
+        </article>
+        <article class="p-4 text-justify">
+          <h2 class="text-center text-xl font-black">Welcome!</h2>
+          <p class="pb-4">Did you found something broken on the website? Or do you think it's cool? Regardless of the reason, you can @ me on Mastodon or DM me on Signal.</p>
+          <p class="pb-4">I tried to make this website accessible and mobile-friendly but there still can be issues. If you find something, feel free to report it.</p>
+          <p class="pb-4">The website is still <b>WIP</b>, so expect buggy layout, missing pages and controversial design choices. You've been warned!</p>
+          <p>Fonts used are <b>IBM Plex Sans</b> and <b>IBM Plex Serif</b>. The website also uses <b>tailwindcss</b>. I have versions for old Safari, Opera Mobile and WAP planned after I finish with this one.</p>
+        </article>
+      </main>
+      <aside class="order-3 md:order-3 bg-gray-100 p-4">
+        <ul class="bg-gray-50 flex flex-col border border-gray-300 rounded-md overflow-hidden mb-4">
+          <li class="bg-gray-200 text-center font-[IBM_Plex_Serif] font-black text-lg py-2 border-b border-gray-300">About Me</li>
+          <li class="px-4 py-2 border-b border-gray-300">
+            <div class="">
+              Nineteen years
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Age
+            </div>
+          </li>
+          <li class="px-4 py-2 border-b border-gray-300">
+            <div class="">
+              they/them
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Pronouns
+            </div>
+          </li>
+          <li class="px-4 py-2 border-b border-gray-300">
+            <div class="">
+              Software Engineering (student)
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Qualification
+            </div>
+          </li>
+          <li class="px-4 py-2">
+            <div class="">
+              Debian GNU/Linux "trixie"
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Daily driver
+            </div>
+          </li>
+        </ul>
+        <ul class="bg-gray-50 flex flex-col border border-gray-300 rounded-md overflow-hidden">
+          <li class="bg-gray-200 text-center font-[IBM_Plex_Serif] font-black text-lg py-2 border-b border-gray-300">Technological Stack</li>
+          <li class="px-4 py-2 border-b border-gray-300">
+            <div class="">
+              Java, C, C++
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Programming Languages
+            </div>
+          </li>
+          <li class="px-4 py-2 border-b border-gray-300">
+            <div class="">
+              GNU+Linux, BSD, Haiku
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Operating Systems
+            </div>
+          </li>
+          <li class="px-4 py-2 border-b border-gray-300">
+            <div class="">
+              Perl, Bash, Python
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Scripting and Automation
+            </div>
+          </li>
+          <li class="px-4 py-2">
+            <div class="">
+              Docker, Podman, QEMU
+            </div>
+            <div class="text-xs uppercase font-semibold text-gray-500">
+              Other Tools
+            </div>
+          </li>
+        </ul>
+      </aside>
     </div>
-  </div>
+    <footer class="bg-gray-200 p-2 text-center text-xs">
+      <p>Copyright (c) Iaroslav Lisov, 2025-present. All rights reserved.</p>
+    </footer>
+  </section>
 </body>
 </html>
