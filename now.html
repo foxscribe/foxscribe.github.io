@@ -8,9 +8,13 @@
   <meta property="og:title" content="Azzy's Corner">
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/152059390">
   <meta property="og:description" content="Iaroslav 'Azzy' Lisov – Check out what I'm up to!">
-  <meta property="og:url" content="https://foxscribe.github.io/">
+  <meta property="og:url" content="https://foxscribe.ru/">
+  <meta name="author" content="Iaroslav 'Azzy' Lisov">
   <title>Azzy's Corner</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
+  <link rel="canonical" href="https://foxscribe.ru/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
 </head>
@@ -24,19 +28,24 @@
         </div>
       </div>
     </header>
-    <div class="grid grid-cols-1 md:grid-cols-[1fr_3fr_2fr] gap-0">
+    <div class="grid grid-cols-1 md:grid-cols-[1fr_5fr] gap-0">
       <aside class="order-1 bg-white md:bg-gray-100">
         <nav class="flex flex-col gap-2 md:text-sm text-lg font-medium">
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">Main</p><a href="/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">About Me</a> <a href="/uses.html" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">I use</a> <a href="/now.html" class="hover:text-blue-600 hover:underline px-4">Now</a>
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">My stuff</p><a href="/artwork/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Artwork</a> <a href="/articles/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Articles</a> <a href="/branding/" class="hover:text-blue-600 hover:underline px-4 pb-4">"Branding"</a>
         </nav>
       </aside>
-      <main class="order-2 bg-white p-0">
-
+      <main class="order-2 bg-white p-8 flex flex-col gap-8">
+        <section>
+          <h2 class="text-xl font-[IBM_Plex_Serif] font-black border-b border-gray-300 pb-2 mb-4">What am I up to now?</h2>
+          <ol class="list-decimal px-4">
+            <li>Learning how to make nice-looking websites</li>
+            <li>Developing a couple C++ projects</li>
+            <li>Slowly reading "Domain-Driven Design" by <i>Eric Evans</i></li>
+            <li>Trying to remember how to draw</li>
+          </ol>
+        </section>
       </main>
-      <aside class="order-3 md:order-3 bg-white md:bg-gray-100 p-4">
-
-      </aside>
     </div>
     <footer class="bg-gray-200 p-2 text-center text-xs">
       <p>Copyright (c) Iaroslav Lisov, 2025-present. All rights reserved.</p>
