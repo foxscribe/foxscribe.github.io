@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.8.0">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="fediverse:creator" content="@foxscribe@woof.tech">
@@ -16,12 +17,12 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="canonical" href="https://foxscribe.ru/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
 </head>
 <body class="font-[IBM_Plex_Sans] min-h-screen flex flex-col items-center justify-center bg-[url('/image/paper.webp')] bg-cover bg-center bg-no-repeat">
-  <section class="max-w-4xl mx-auto flex flex-col">
+  <section class="md:max-w-4xl w-full md:mx-auto flex flex-col">
     <header class="bg-[url(/image/river.webp)] bg-cover bg-center w-full">
       <div class="flex flex-col items-center p-12 backdrop-blur-sm text-white font-[IBM_Plex_Serif]">
         <div class="inline-block text-left">
@@ -32,7 +33,10 @@
     </header>
     <div class="grid grid-cols-1 md:grid-cols-[1fr_5fr] gap-0 flex-1 h-full">
       <aside class="order-1 bg-white md:bg-gray-100">
-        <nav class="flex flex-col gap-2 md:text-sm text-lg font-medium">
+        <div class="md:hidden flex justify-between items-center px-4 py-2 bg-gray-200 cursor-pointer" onclick="document.getElementById('nav').classList.toggle('hidden')">
+          <span class="font-[IBM_Plex_Serif] font-black text-lg">Menu</span> ☰
+        </div>
+        <nav id="nav" class="hidden flex md:flex flex-col gap-2 md:text-sm text-lg font-medium">
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">Main</p><a href="/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">About Me</a> <a href="/uses.html" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">I use</a> <a href="/now.html" class="hover:text-blue-600 hover:underline px-4">Now</a>
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">My stuff</p><a href="/artwork/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Artwork</a> <a href="/articles/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Articles</a> <a href="/branding/" class="hover:text-blue-600 hover:underline px-4 pb-4">"Branding"</a>
         </nav>

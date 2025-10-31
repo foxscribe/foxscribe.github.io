@@ -32,7 +32,10 @@
     </header>
     <div class="grid grid-cols-1 md:grid-cols-[1fr_3fr_2fr] gap-0 flex-1 h-full">
       <aside class="order-1 bg-white md:bg-gray-100">
-        <nav class="flex flex-col gap-2 md:text-sm text-lg font-medium">
+        <div class="md:hidden flex justify-between items-center px-4 py-2 bg-gray-200 cursor-pointer" onclick="document.getElementById('nav').classList.toggle('hidden')">
+          <span class="font-[IBM_Plex_Serif] font-black text-lg">Menu</span> ☰
+        </div>
+        <nav id="nav" class="hidden flex md:flex flex-col gap-2 md:text-sm text-lg font-medium">
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">Main</p><a href="/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">About Me</a> <a href="/uses.html" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">I use</a> <a href="/now.html" class="hover:text-blue-600 hover:underline px-4">Now</a>
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Serif] text-center text-lg font-black">My stuff</p><a href="/artwork/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Artwork</a> <a href="/articles/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Articles</a> <a href="/branding/" class="hover:text-blue-600 hover:underline px-4 pb-4">"Branding"</a>
         </nav>
