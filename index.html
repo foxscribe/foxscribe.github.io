@@ -19,8 +19,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 </head>
 <body class="font-[IBM_Plex_Serif] min-h-screen flex flex-col items-center justify-center bg-[url('/image/paper.webp')] bg-cover bg-center bg-no-repeat">
+  <div style="display: none" class="h-card">
+    <span class="p-name">Iaroslav Lisov</span>
+    <span class="p-nickname">Azzy</span>
+    <span class="p-nickname">foxscribe</span>
+    <span class="p-nickname">rei_dreem</span>
+    <span class="p-nickname">foxycycline</span>
+    <span class="p-nickname">tetrafoxate</span>
+    <a class="u-url" href="https://foxscribe.ru">w</a>
+    <a class="u-email" href="mailto:foxycycline@duck.com">e</a>
+  </div>
   <section class="md:max-w-4xl w-full h-auto md:mx-auto flex flex-col">
     <header class="bg-[url(/image/river.webp)] bg-cover bg-center w-full">
       <div class="flex flex-col items-center p-12 backdrop-blur-sm text-white font-[IBM_Plex_Sans]">
@@ -30,15 +41,24 @@
         </div>
       </div>
     </header>
-    <div class="grid grid-cols-1 md:grid-cols-[1fr_3fr_2fr] gap-0 flex-1 h-full">
+    <div class="grid grid-cols-1 md:grid-cols-[1.25fr_3fr_1.75fr] gap-0 flex-1 h-full">
       <aside class="order-1 bg-white md:bg-gray-100">
         <div class="md:hidden flex justify-between items-center px-4 py-2 bg-gray-200 cursor-pointer" onclick="document.getElementById('nav').classList.toggle('hidden')">
           <span class="font-[IBM_Plex_Sans] font-black text-lg">Menu</span> ☰
         </div>
-        <nav id="nav" class="hidden flex md:flex flex-col gap-2 md:text-sm text-lg font-medium">
+        <div id="nav" class="hidden md:block">
+        <nav class="flex md:flex flex-col gap-2 md:text-sm text-lg font-medium">
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Sans] text-center text-lg font-black">Main</p><a href="/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">About Me</a> <a href="/uses.html" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">I use</a> <a href="/now.html" class="hover:text-blue-600 hover:underline px-4">Now</a>
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Sans] text-center text-lg font-black">My stuff</p><a href="/artwork/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Artwork</a> <a href="/articles/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Articles</a> <a href="/branding/" class="hover:text-blue-600 hover:underline px-4 pb-4">"Branding"</a>
         </nav>
+        <article>
+          <h2 class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Sans] text-center text-lg font-black">Rings!</h2>
+          <div id='furryring' class="md:text-sm text-lg font-medium px-2 py-4">
+            <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+            <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
+          </div>
+        <article>
+        </div>
       </aside>
       <main class="order-2 bg-white p-0">
         <article class="relative flex flex-col sm:flex-row w-full">
@@ -49,7 +69,7 @@
               <!-- Mobile info -->
               <h2 class="font-extrabold p-4 pb-0">Iaroslav "Azzy" Lisov <span class="block text-xs font-semibold text-gray-500">a.k.a. foxscribe, tetrafoxate, foxycycline, rei_dreem</span></h2>
               <div class="flex justify-center gap-2 p-4">
-                <a href="https://woof.tech/@foxscribe" rel="me" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mastodon.svg" alt="Mastodon" class="w-6 h-6"></a> <a href="https://codeberg.org/foxscribe" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/codeberg.svg" alt="Codeberg" class="w-6 h-6"></a> <a href="mailto:foxycycline@duck.com" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mail.svg" alt="E-mail" class="w-6 h-6"></a> <a href="https://signal.me/#eu/sHmfMQwa-BTbiug4RFDNM72QgbulEjvJboV6xZMtpN_E1MdBGGxLPpMBmTOYUm4q" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/signal.svg" alt="Signal Messenger" class="w-6 h-6"></a>
+                <a href="https://woof.tech/@foxscribe" rel="me" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mastodon.svg" alt="Mastodon" class="w-6 h-6"></a> <a href="https://codeberg.org/foxscribe" rel="me" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/codeberg.svg" alt="Codeberg" class="w-6 h-6"></a> <a href="mailto:foxycycline@duck.com" rel="me" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/mail.svg" alt="E-mail" class="w-6 h-6"></a> <a href="https://signal.me/#eu/sHmfMQwa-BTbiug4RFDNM72QgbulEjvJboV6xZMtpN_E1MdBGGxLPpMBmTOYUm4q" class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition"><img src="/symbolic/signal.svg" alt="Signal Messenger" class="w-6 h-6"></a>
               </div>
             </div>
           </div>

@@ -30,15 +30,24 @@
         </div>
       </div>
     </header>
-    <div class="grid grid-cols-1 md:grid-cols-[1fr_5fr] gap-0 flex-1 h-full">
+    <div class="grid grid-cols-1 md:grid-cols-[1.25fr_4.75fr] gap-0 flex-1 h-full">
       <aside class="order-1 bg-white md:bg-gray-100">
         <div class="md:hidden flex justify-between items-center px-4 py-2 bg-gray-200 cursor-pointer" onclick="document.getElementById('nav').classList.toggle('hidden')">
           <span class="font-[IBM_Plex_Sans] font-black text-lg">Menu</span> ☰
         </div>
-        <nav id="nav" class="hidden flex md:flex flex-col gap-2 md:text-sm text-lg font-medium">
+        <div id="nav" class="hidden md:block">
+        <nav class="flex md:flex flex-col gap-2 md:text-sm text-lg font-medium">
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Sans] text-center text-lg font-black">Main</p><a href="/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">About Me</a> <a href="/uses.html" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">I use</a> <a href="/now.html" class="hover:text-blue-600 hover:underline px-4">Now</a>
           <p class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Sans] text-center text-lg font-black">My stuff</p><a href="/artwork/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Artwork</a> <a href="/articles/" class="hover:text-blue-600 hover:underline border-b border-gray-300 pb-2 px-4">Articles</a> <a href="/branding/" class="hover:text-blue-600 hover:underline px-4 pb-4">"Branding"</a>
         </nav>
+        <article>
+          <h2 class="border-b border-gray-300 pb-2 pt-4 px-4 font-[IBM_Plex_Sans] text-center text-lg font-black">Rings!</h2>
+          <div id='furryring' class="md:text-sm text-lg font-medium px-2 py-4">
+            <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+            <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
+          </div>
+        <article>
+        </div>
       </aside>
       <main class="order-2 bg-white p-8 flex flex-col gap-8">
         <section>
